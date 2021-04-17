@@ -1,6 +1,6 @@
 // IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 //
-// # Version 2021041201, Last Updated Tue Apr 13 07:07:01 2021 UTC
+// # Version 2021041700, Last Updated Sat Apr 17 07:07:01 2021 UTC
 
 pub const tlds: []const []const u8 = &.{
     "aaa",
@@ -836,7 +836,6 @@ pub const tlds: []const []const u8 = &.{
     "nab",
     "nagoya",
     "name",
-    "nationwide",
     "natura",
     "navy",
     "nba",
@@ -896,7 +895,6 @@ pub const tlds: []const []const u8 = &.{
     "ong",
     "onl",
     "online",
-    "onyourside",
     "ooo",
     "open",
     "oracle",
