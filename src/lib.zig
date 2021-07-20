@@ -1,6 +1,6 @@
 // IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 //
-// # Version 2021041700, Last Updated Sat Apr 17 07:07:01 2021 UTC
+// # Version 2021071900, Last Updated Mon Jul 19 07:07:01 2021 UTC
 
 pub const tlds: []const []const u8 = &.{
     "aaa",
@@ -629,7 +629,6 @@ pub const tlds: []const []const u8 = &.{
     "it",
     "itau",
     "itv",
-    "iveco",
     "jaguar",
     "java",
     "jcb",
@@ -1127,7 +1126,6 @@ pub const tlds: []const []const u8 = &.{
     "space",
     "sport",
     "spot",
-    "spreadbetting",
     "sr",
     "srl",
     "ss",
