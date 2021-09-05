@@ -1,6 +1,6 @@
 // IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 //
-// # Version 2021071900, Last Updated Mon Jul 19 07:07:01 2021 UTC
+// # Version 2021090400, Last Updated Sat Sep 4 07:07:01 2021 UTC
 
 pub const tlds: []const []const u8 = &.{
     "aaa",
