@@ -12,14 +12,14 @@ print_tab() {
     printf "    " >> $out_path
 }
 
-echo "// IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt" > $out_path
-do_print "//"
+echo "//! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt" > $out_path
 
 echo "$(curl -s $data_url)" |
 while IFS= read -r line; do
     if [[ ${line:0:1} == "#" ]];
     then
-        do_print "//" "$line"
+        do_print "//!" "$line"
+        do_print "//!"
         do_print
         do_print "pub const tlds: []const []const u8 = &.{"
     else
