@@ -1,0 +1,16 @@
+name: Zig CI
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: git diff src/lib.zig
+      - run: ./generate.sh
+      - run: git diff src/lib.zig
+      - run: ./ci/update.sh
