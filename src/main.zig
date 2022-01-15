@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const tlds = @import("./lib.zig").tlds;
+const tlds = @import("iana-tlds").tlds;
 
 pub fn main() anyerror!void {
     std.log.info("All your codebase are belong to us.", .{});
