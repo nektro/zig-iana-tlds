@@ -1,6 +1,6 @@
-// IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//
-// # Version 2021090400, Last Updated Sat Sep 4 07:07:01 2021 UTC
+//! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+//! # Version 2022011500, Last Updated Sat Jan 15 07:07:01 2022 UTC
+//!
 
 pub const tlds: []const []const u8 = &.{
     "aaa",
@@ -29,7 +29,6 @@ pub const tlds: []const []const u8 = &.{
     "aero",
     "aetna",
     "af",
-    "afamilycompany",
     "afl",
     "africa",
     "ag",
@@ -364,7 +363,6 @@ pub const tlds: []const []const u8 = &.{
     "drive",
     "dtv",
     "dubai",
-    "duck",
     "dunlop",
     "dupont",
     "durban",
@@ -498,7 +496,6 @@ pub const tlds: []const []const u8 = &.{
     "gives",
     "giving",
     "gl",
-    "glade",
     "glass",
     "gle",
     "global",
@@ -724,7 +721,6 @@ pub const tlds: []const []const u8 = &.{
     "lipsy",
     "live",
     "living",
-    "lixil",
     "lk",
     "llc",
     "llp",
@@ -825,6 +821,7 @@ pub const tlds: []const []const u8 = &.{
     "mtr",
     "mu",
     "museum",
+    "music",
     "mutual",
     "mv",
     "mw",
@@ -881,7 +878,6 @@ pub const tlds: []const []const u8 = &.{
     "nz",
     "obi",
     "observer",
-    "off",
     "office",
     "okinawa",
     "olayan",
@@ -980,10 +976,8 @@ pub const tlds: []const []const u8 = &.{
     "qpon",
     "quebec",
     "quest",
-    "qvc",
     "racing",
     "radio",
-    "raid",
     "re",
     "read",
     "realestate",
@@ -1015,7 +1009,6 @@ pub const tlds: []const []const u8 = &.{
     "ril",
     "rio",
     "rip",
-    "rmit",
     "ro",
     "rocher",
     "rocks",
@@ -1061,7 +1054,6 @@ pub const tlds: []const []const u8 = &.{
     "schule",
     "schwarz",
     "science",
-    "scjohnson",
     "scot",
     "sd",
     "se",
@@ -1154,7 +1146,6 @@ pub const tlds: []const []const u8 = &.{
     "suzuki",
     "sv",
     "swatch",
-    "swiftcover",
     "swiss",
     "sx",
     "sy",
@@ -1333,7 +1324,6 @@ pub const tlds: []const []const u8 = &.{
     "xn--3ds443g",
     "xn--3e0b707e",
     "xn--3hcrj9c",
-    "xn--3oq18vl8pn36a",
     "xn--3pxu8k",
     "xn--42c2d9a",
     "xn--45br5cyl",
