@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2022011500, Last Updated Sat Jan 15 07:07:01 2022 UTC
+//! # Version 2022020200, Last Updated Wed Feb 2 07:07:01 2022 UTC
 //!
 
 pub const tlds: []const []const u8 = &.{
@@ -304,7 +304,6 @@ pub const tlds: []const []const u8 = &.{
     "crs",
     "cruise",
     "cruises",
-    "csc",
     "cu",
     "cuisinella",
     "cv",
