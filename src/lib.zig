@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2022020200, Last Updated Wed Feb 2 07:07:01 2022 UTC
+//! # Version 2022021800, Last Updated Fri Feb 18 07:07:01 2022 UTC
 //!
 
 pub const tlds: []const []const u8 = &.{
@@ -180,7 +180,6 @@ pub const tlds: []const []const u8 = &.{
     "brussels",
     "bs",
     "bt",
-    "budapest",
     "bugatti",
     "build",
     "builders",
