@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2022021800, Last Updated Fri Feb 18 07:07:01 2022 UTC
+//! # Version 2022040402, Last Updated Tue Apr 5 07:07:01 2022 UTC
 //!
 
 pub const tlds: []const []const u8 = &.{
@@ -657,6 +657,7 @@ pub const tlds: []const []const u8 = &.{
     "kh",
     "ki",
     "kia",
+    "kids",
     "kim",
     "kinder",
     "kindle",
