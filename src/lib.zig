@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2022040402, Last Updated Tue Apr 5 07:07:01 2022 UTC
+//! # Version 2022122400, Last Updated Sat Dec 24 07:07:01 2022 UTC
 //!
 
 pub const tlds: []const []const u8 = &.{
@@ -21,7 +21,6 @@ pub const tlds: []const []const u8 = &.{
     "aco",
     "actor",
     "ad",
-    "adac",
     "ads",
     "adult",
     "ae",
@@ -180,7 +179,6 @@ pub const tlds: []const []const u8 = &.{
     "brussels",
     "bs",
     "bt",
-    "bugatti",
     "build",
     "builders",
     "business",
@@ -200,7 +198,6 @@ pub const tlds: []const []const u8 = &.{
     "cam",
     "camera",
     "camp",
-    "cancerresearch",
     "canon",
     "capetown",
     "capital",
@@ -727,7 +724,6 @@ pub const tlds: []const []const u8 = &.{
     "loans",
     "locker",
     "locus",
-    "loft",
     "lol",
     "london",
     "lotte",
@@ -1064,7 +1060,6 @@ pub const tlds: []const []const u8 = &.{
     "select",
     "sener",
     "services",
-    "ses",
     "seven",
     "sew",
     "sex",
@@ -1391,7 +1386,6 @@ pub const tlds: []const []const u8 = &.{
     "xn--j1amh",
     "xn--j6w193g",
     "xn--jlq480n2rg",
-    "xn--jlq61u9w7b",
     "xn--jvr189m",
     "xn--kcrx77d1x4a",
     "xn--kprw13d",
