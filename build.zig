@@ -2,24 +2,22 @@ const std = @import("std");
 const deps = @import("./deps.zig");
 
 pub fn build(b: *std.build.Builder) void {
-    // Standard target options allows the person running `zig build` to choose
-    // what target to build for. Here we do not override the defaults, which
-    // means any target is allowed, and the default is native. Other options
-    // for restricting supported target set are available.
     const target = b.standardTargetOptions(.{});
+    const mode = b.option(std.builtin.Mode, "mode", "") orelse .Debug;
 
-    // Standard release options allow the person running `zig build` to select
-    // between Debug, ReleaseSafe, ReleaseFast, and ReleaseSmall.
-    const mode = b.standardReleaseOptions();
-
-    const exe = b.addExecutable("zig-iana-tlds", "src/main.zig");
-    exe.setTarget(target);
-    exe.setBuildMode(mode);
+    const exe = b.addExecutable(.{
+        .name = "zig-iana-tlds",
+        .root_source_file = .{ .path = "src/main.zig" },
+        .target = target,
+        .optimize = mode,
+    });
     deps.addAllTo(exe);
-    exe.install();
+    b.installArtifact(exe);
 
-    const run_cmd = exe.run();
+    const run_cmd = b.addRunArtifact(exe);
+
     run_cmd.step.dependOn(b.getInstallStep());
+
     if (b.args) |args| {
         run_cmd.addArgs(args);
     }
