@@ -21,7 +21,7 @@ while IFS= read -r line; do
         do_print "//!" "$line"
         do_print "//!"
         do_print
-        do_print "pub const tlds: []const []const u8 = &.{"
+        do_print "pub const tlds = [_][]const u8{"
     else
         print_tab
         name=$(echo "$line" | tr '[:upper:]' '[:lower:]')

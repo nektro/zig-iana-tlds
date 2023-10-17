@@ -2,7 +2,7 @@
 //! # Version 2023101700, Last Updated Tue Oct 17 07:07:02 2023 UTC
 //!
 
-pub const tlds: []const []const u8 = &.{
+pub const tlds = [_][]const u8{
     "aaa",
     "aarp",
     "abb",
