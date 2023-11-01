@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2023101700, Last Updated Tue Oct 17 07:07:02 2023 UTC
+//! # Version 2023110100, Last Updated Wed Nov 1 07:07:01 2023 UTC
 //!
 
 pub const tlds = [_][]const u8{
@@ -217,7 +217,6 @@ pub const tlds = [_][]const u8{
     "cba",
     "cbn",
     "cbre",
-    "cbs",
     "cc",
     "cd",
     "center",
@@ -246,7 +245,6 @@ pub const tlds = [_][]const u8{
     "citi",
     "citic",
     "city",
-    "cityeats",
     "ck",
     "cl",
     "claims",
@@ -448,7 +446,6 @@ pub const tlds = [_][]const u8{
     "fresenius",
     "frl",
     "frogans",
-    "frontdoor",
     "frontier",
     "ftr",
     "fujitsu",
@@ -1064,7 +1061,6 @@ pub const tlds = [_][]const u8{
     "shopping",
     "shouji",
     "show",
-    "showtime",
     "si",
     "silk",
     "sina",
