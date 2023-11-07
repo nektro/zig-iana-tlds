@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2023110100, Last Updated Wed Nov 1 07:07:01 2023 UTC
+//! # Version 2023110700, Last Updated Tue Nov 7 07:07:02 2023 UTC
 //!
 
 pub const tlds = [_][]const u8{
@@ -646,7 +646,6 @@ pub const tlds = [_][]const u8{
     "kia",
     "kids",
     "kim",
-    "kinder",
     "kindle",
     "kitchen",
     "kiwi",
@@ -988,7 +987,6 @@ pub const tlds = [_][]const u8{
     "rio",
     "rip",
     "ro",
-    "rocher",
     "rocks",
     "rodeo",
     "rogers",
