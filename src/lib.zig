@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2023110700, Last Updated Tue Nov 7 07:07:02 2023 UTC
+//! # Version 2023111800, Last Updated Sat Nov 18 07:07:01 2023 UTC
 //!
 
 pub const tlds = [_][]const u8{
@@ -383,7 +383,6 @@ pub const tlds = [_][]const u8{
     "esq",
     "estate",
     "et",
-    "etisalat",
     "eu",
     "eurovision",
     "eus",
@@ -1374,7 +1373,6 @@ pub const tlds = [_][]const u8{
     "xn--mgba3a3ejt",
     "xn--mgba3a4f16a",
     "xn--mgba7c0bbn0a",
-    "xn--mgbaakc7dvf",
     "xn--mgbaam7a8h",
     "xn--mgbab2bd",
     "xn--mgbah1a3hjkrd",
