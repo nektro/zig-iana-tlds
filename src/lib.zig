@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2023111800, Last Updated Sat Nov 18 07:07:01 2023 UTC
+//! # Version 2023112600, Last Updated Sun Nov 26 07:07:01 2023 UTC
 //!
 
 pub const tlds = [_][]const u8{
@@ -1238,7 +1238,6 @@ pub const tlds = [_][]const u8{
     "vlaanderen",
     "vn",
     "vodka",
-    "volkswagen",
     "volvo",
     "vote",
     "voting",
