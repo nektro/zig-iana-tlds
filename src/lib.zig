@@ -1,5 +1,5 @@
 //! IANA TLD list generated from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-//! # Version 2023112600, Last Updated Sun Nov 26 07:07:01 2023 UTC
+//! # Version 2023122500, Last Updated Mon Dec 25 07:07:01 2023 UTC
 //!
 
 pub const tlds = [_][]const u8{
@@ -1020,7 +1020,6 @@ pub const tlds = [_][]const u8{
     "sbi",
     "sbs",
     "sc",
-    "sca",
     "scb",
     "schaeffler",
     "schmidt",
