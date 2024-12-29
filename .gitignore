@@ -1,3 +1,6 @@
-/zig-*
-/deps.zig
-/.zigmod
+.zig-cache
+zig-out
+.zigmod
+deps.zig
+files.zig
+zigmod.lock
